@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CultuConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">CultuConnect</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Explore ▼</a>
+                    <div class="dropdown">
+                        <a href="#">Communities</a>
+                        <a href="#">Events</a>
+                        <a href="#">Culture News</a>
+                    </div>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" id="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Login Form -->
+        <div class="form-container" id="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                <button onclick="login()">Login</button>
+            </div>
+            <p style="text-align:center;">Don't have an account? <a href="#" onclick="toggleForms()">Sign Up</a></p>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="form-container" id="signup-form">
+            <h2>Sign Up</h2>
+            <div class="form-group">
+                <label for="signup-name">Name:</label>
+                <input type="text" id="signup-name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="signup-email">Email:</label>
+                <input type="email" id="signup-email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                <button onclick="signup()">Sign Up</button>
+            </div>
+            <p style="text-align:center;">Already have an account? <a href="#" onclick="toggleForms()">Login</a></p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 CultuConnect. All rights reserved.
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
