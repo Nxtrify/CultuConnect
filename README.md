@@ -1,52 +1,65 @@
 # CultuConnect
-<p align="center">
-  <img src="logo.png" alt="CultuurNL Logo" width="200">
-</p>
+# Cultuur NL — Exclusief Kleurrijk Design
 
-# CultuurNL – Ontdek het hart van Nederland
-
-**CultuurNL** is jouw digitale venster naar de rijke en levendige cultuur van Nederland: van tradities en festivals tot iconische musea en moderne architectuur.
-
-![Koningsdag viering in Amsterdam](images/kings_day.jpg)
-*Een uitgelichte foto van toeristisch én authentiek Nederland*
+Welkom bij **Cultuur NL**, een uniek digitaal designconcept voor een cultuurwebsite in Nederland. Deze omgeving is speciaal ontworpen zonder gebruik van foto’s, maar volledig opgebouwd uit kleuren, vormen, typografie en animaties. Het resultaat is een moderne, verrassende en toch toegankelijke interface waarin Nederlandse kunst, festivals, muziek en erfgoed centraal staan.
 
 ---
 
-##  Inhoud
-
-- [Over deze website](#over-deze-website)  
-- [Features](#features)  
-- [Technische details](#technische-details)  
-- [Visueel design & inspiratie](#visueel-design–inspiratie)  
-- [Contributie](#contributie)  
-- [Licentie](#licentie)  
+## ✨ Kenmerken
+- **Unieke kleurencombinaties**: Oranje (accent van NL), Delfts blauw en tulpenroze, aangevuld met subtiele donkere en lichte tonen.
+- **Organische vormen en geometrische patronen**: vloeiende blobs, fractals en abstracte lijnen geven de site een dynamisch karakter.
+- **Typografie**: een mix van futuristische fonts met elegante klassieke accenten voor een cultureel en modern gevoel.
+- **Interactie**: hover-effecten, subtiele morphing, parallax en ademende kleuren.
+- **Volledig zonder foto’s**: de visuele beleving komt voort uit vorm, kleur en compositie.
 
 ---
 
-## Over deze website
+## 📚 Inhoud en secties
+De componenten en secties zijn gericht op cultuur in Nederland:
 
-CultuurNL is een informatieve en inspirerende website met **originele content** over Nederlandse cultuur, events, architectuur en lifestyle.  
-> “Minimalistische vormgeving met diepzinnige beleving” – zo kun je onze stijl noemen.
-
----
-
-## Features
-
-- **Interactieve kaart** van culturele evenementen en monumenten  
-- **Fotogalerij** met hoogtepunten uit heel Nederland  
-- **Blogsectie** met gidsen, achtergrondverhalen en interviews  
-- **Donker/licht thema-switch** voor optimale leesbaarheid :contentReference[oaicite:1]{index=1}  
-- **Toegankelijk en mobielvriendelijk ontwerp** (WCAG, responsive) :contentReference[oaicite:2]{index=2}  
-- **Duurzame webhosting & geoptimaliseerde media** voor minder energieverbruik :contentReference[oaicite:3]{index=3}  
+- 🎭 **Kunst & Erfgoed** – musea, tentoonstellingen, architectuur, tradities.  
+- 🎶 **Muziek & Festivals** – van Amsterdam Dance Event tot North Sea Jazz.  
+- 🌍 **Cultuurkalender** – evenementen, feesten en seizoensgebonden activiteiten.  
+- 🖌️ **Design & Innovatie** – Nederlandse vormgeving en creatieve industrie.  
 
 ---
 
-## Technische details
+## 🚀 Installatie & gebruik
+1. Zorg dat je project **React + Tailwind** bevat (bijvoorbeeld Next.js of Vite).  
+   Voor animaties: installeer Framer Motion → `npm i framer-motion` (optioneel).  
 
-- **Gebouwd met**: HTML5, CSS (Flexbox & Grid), vanilla JavaScript  
-- **Frameworks**: SASS voor styling, enkel voor frontend – geen zware libraries  
-- **Responsief design**: Past zich moeiteloos aan mobiel, tablet en desktop aan  
-- **Toegankelijkheid**: Semantische HTML, alt-teksten en toetsenbord-navigatie  
+2. Kopieer het component-bestand naar je project, bijv. `src/components/ExclusiveDesign.jsx`.  
 
-```html
-<img src="images/tulips.jpg" alt="Tulpenveld in bloei bij Zaanse Schans">
+3. Importeer het component en gebruik het in je pagina:
+   ```jsx
+   import ExclusiveDesign from '@/components/ExclusiveDesign'
+
+   export default function Home() {
+     return <ExclusiveDesign />
+   }
+   ```
+
+---
+
+## 🌐 Online zetten via GitHub & Vercel
+1. Maak een nieuwe repository aan op [GitHub](https://github.com).  
+2. Voeg je code toe:
+   ```bash
+   git init
+   git add .
+   git commit -m "Eerste versie Cultuur NL"
+   git branch -M main
+   git remote add origin https://github.com/jouwnaam/cultuur-nl.git
+   git push -u origin main
+   ```
+3. Ga naar [Vercel](https://vercel.com), log in met GitHub en kies je repo.  
+4. Klik **Deploy** → je cultuurwebsite staat online.  
+
+---
+
+## 🎨 Design Philosophy
+Het ontwerp is gebaseerd op **controlled surprise**: onverwachte kleuren en vormen die samenkomen in een harmonieus geheel. Het ademt cultuur, innovatie en diversiteit — net als Nederland zelf. Zonder rommel of overdaad, maar met focus op esthetiek, leesbaarheid en interactie.
+
+---
+
+© 2025 Cultuur NL — Een ode aan Nederlandse kunst, muziek en erfgoed.
